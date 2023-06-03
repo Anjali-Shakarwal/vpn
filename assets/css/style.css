@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+
+}
+
+.my_container {
+    width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ff_rubik {
+    font-family: 'Rubik', 'sans-serif';
+}
+
+.fw_500 {
+    font-weight: 500
+}
+
+.fw_400 {
+    font-weight: 400
+}
+
+.fw_700 {
+    font-weight: 700
+}
+
+.max_width_555 {
+    max-width: 555px;
+}
+
+.max_width_447 {
+    max-width: 447px;
+}
+
+.max_width_384 {
+    max-width: 384px;
+}
+
+.max_width_340 {
+    max-width: 340px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.z_10 {
+    z-index: 10 !important;
+}
+
+.card-info {
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 100%;
+}
+
+.m-w-340 {
+    max-width: 340px;
+}
+
+.text_red {
+    color: #F53855;
+}
+
+.get_Started_btn {
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17px 77px;
+    border: 1px solid #F53838;
+    white-space: nowrap;
+
+}
+
+.get_Started_btn:hover {
+    box-shadow: 0px 12px 25px #F53838;
+}
+
+.box-2 {
+    background-color: #ffffff;
+    box-shadow: 1px 20px 40px #d3d3dc;
+    max-width: 1140px;
+    padding: 50px;
+}
+
+.max-w-144 {
+    max-width: 144px;
+}
+.max-w-508{
+    max-width: 508px;
+}
+
+.slick-next:before {
+    content: '→';
+    display: none !important;
+}
+
+.slick-prev:before {
+    content: '→';
+    display: none !important;
+}
+
+
+
+.f-gray {
+    color: #4F5665;
+}
+
+.box {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.mt_50 {
+    margin-top: -20px;
+}
+
+.font_black {
+    color: black;
+}
+
+.c_pointer {
+
+    cursor: pointer;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -51px !important;
+    display: inline-block !important;
+}
+
+.Sign_up_box {
+    background-color: #ffffff;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    padding: 13px 45px;
+}
+
+.slick-dots {
+    text-align: start !important;
+    bottom: -64px !important;
+
+}
+
+.Select-box {
+    background-color: #ffffff;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 64px;
+}
+
+.box:hover .Select-box {
+    background-color: #F53838;
+    color: #ffffff;
+}
+
+.box:hover {
+    border: 2px solid #F53838;
+}
+
+.h_100vh {
+    height: 100vh;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.max_width_35 {
+    max-width: 35px;
+}
+
+.max_width_611 {
+    max-width: 611px;
+}
+
+.card-box {
+    max-width: 1140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 20px 40px #d3d3dc;
+    padding: 45px 60px;
+}
+
+.slick-card {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.slick-card:hover {
+    border: 2px solid #F53838;
+    border: redius 10px;
+}
+
+.bg_color {
+    background-color: #f8f8f8;
+}
+
+.max_width_372 {
+    max-width: 372px;
+}
+
+.max_width_410 {
+    max-width: 410px;
+}
+
+.height_230 {
+    height: 230px !important;
+}
+
+.CustomerSlider .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.CustomerSlider .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+
+}
+
+.slick-dots li {
+    margin: 0;
+    width: unset !important
+}
+
+.slick-dots li.slick-active button {
+    background-color: #F53838 !important;
+    border-radius: 28px;
+    width: 45px;
+    height: 15px;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 5px;
+    border: none;
+    border-radius: 100%;
+    background-color: #dde0e4 !important;
+    text-indent: -9999px;
+    transition: all 300ms linear;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #F53838 !important;
+    width: unset !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: #4F5665 !important;
+}
+
+@media (max-width:576px) {
+    .get_Started_btn {
+        padding: 17px 55px;
+    }
+
+    .card-box {
+        padding: 30px 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .gap_lg_40 {
+        gap: 40px !important;
+    }
+
+    .border_right {
+        border-right: 3px solid #eeeef2;
+        height: 100px;
+    }
+}
+
+@media (max-width:992px) {
+    .gap_lg_40 {
+        gap: 20px !important;
+    }
+}
